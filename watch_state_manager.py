@@ -3,7 +3,7 @@ import sys
 import json
 from jellyfin_apiclient_python import JellyfinClient
 
-server_url = os.getenv('ZAHHAK_MYSQL_HOSTNAME')
+server_url = os.getenv('JELLYFIN_HOSTNAME')
 username = os.getenv('JELLYFIN_USERNAME')
 password = os.getenv('JELLYFIN_PASSWORD')
 if server_url is None or username is None or password is None:
